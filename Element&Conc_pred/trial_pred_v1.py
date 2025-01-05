@@ -35,7 +35,7 @@ data_Hg = pd.read_csv("Element&Conc_pred\\Image_data_Hg.csv")
 data_Cr = pd.read_csv("Element&Conc_pred\\Image_data_Cr.csv")
 data_Co = pd.read_csv("Element&Conc_pred\\Image_data_Co.csv")
 
-img = cv2.imread('Element&Conc_pred\\chitkul plane water.jpg')
+img = cv2.imread('Element&Conc_pred\\Peerzadi lake water.jpg')
 
 print(f"Chromium Concentration: {pred_conc(data_Cr,img)} M")
 print(f"Mercury Concentration: {pred_conc(data_Hg,img)} M")
